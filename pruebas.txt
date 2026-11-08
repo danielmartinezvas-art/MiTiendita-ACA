@@ -1,0 +1,31 @@
+  Determining projects to restore...
+  Restored D:\a\MiTiendita-ACA\MiTiendita-ACA\MiTiendita\MiTiendita.csproj (in 360 ms).
+  Restored D:\a\MiTiendita-ACA\MiTiendita-ACA\MiTiendita.Tests\MiTiendita.Tests.csproj (in 5.89 sec).
+  MiTiendita -> D:\a\MiTiendita-ACA\MiTiendita-ACA\MiTiendita\bin\Debug\net8.0-windows\MiTiendita.dll
+  MiTiendita.Tests -> D:\a\MiTiendita-ACA\MiTiendita-ACA\MiTiendita.Tests\bin\Debug\net8.0-windows\MiTiendita.Tests.dll
+Test run for D:\a\MiTiendita-ACA\MiTiendita-ACA\MiTiendita.Tests\bin\Debug\net8.0-windows\MiTiendita.Tests.dll (.NETCoreApp,Version=v8.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.33)
+[xUnit.net 00:00:00.22]   Discovering: MiTiendita.Tests
+[xUnit.net 00:00:00.36]   Discovered:  MiTiendita.Tests
+[xUnit.net 00:00:00.36]   Starting:    MiTiendita.Tests
+  Passed MiTiendita.Tests.ProductoTests.Inventario_BuscarPorCodigo_EncuentraSinImportarMayusculas [9 ms]
+  Passed MiTiendita.Tests.ProductoTests.Producto_PrecioCero_LanzaArgumentException [9 ms]
+  Passed MiTiendita.Tests.ProductoTests.Inventario_AgregarCodigoRepetido_LanzaExcepcion [< 1 ms]
+  Passed MiTiendita.Tests.ProductoTests.RepositorioJson_ArchivoInexistente_DevuelveListaVacia [56 ms]
+  Passed MiTiendita.Tests.ProductoTests.Producto_CantidadNegativa_LanzaArgumentException [< 1 ms]
+  Passed MiTiendita.Tests.ProductoTests.Inventario_ValorTotal_SumaPrecioFinalPorCantidad [3 ms]
+  Passed MiTiendita.Tests.ProductoTests.Producto_PrecioNegativo_LanzaArgumentException [< 1 ms]
+  Passed MiTiendita.Tests.ProductoTests.ProductoNormal_PrecioFinal_EsIgualAlPrecio [< 1 ms]
+  Passed MiTiendita.Tests.ProductoTests.ProductoPerecedero_VenceEnMenosDe3Dias_Tiene10PorCientoDeDescuento [< 1 ms]
+[xUnit.net 00:00:00.61]   Finished:    MiTiendita.Tests
+  Passed MiTiendita.Tests.ProductoTests.Factory_TipoPerecedero_CreaProductoPerecedero [< 1 ms]
+  Passed MiTiendita.Tests.ProductoTests.Inventario_Eliminar_QuitaElProducto [< 1 ms]
+  Passed MiTiendita.Tests.ProductoTests.RepositorioJson_GuardarYCargar_ConservaElTipoDeProducto [107 ms]
+  Passed MiTiendita.Tests.ProductoTests.Factory_TipoNoValido_LanzaArgumentException [< 1 ms]
+  Passed MiTiendita.Tests.ProductoTests.ProductoPerecedero_VenceEn3DiasOMas_NoTieneDescuento [< 1 ms]
+
+Test Run Successful.
+Total tests: 14
+     Passed: 14
+ Total time: 3.2190 Seconds
